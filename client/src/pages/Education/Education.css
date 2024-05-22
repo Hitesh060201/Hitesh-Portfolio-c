@@ -2,7 +2,7 @@
     padding: 100px 0px;
     margin: 50px 0px;
     margin-left: 140px;
-    background-color: rgba(128, 128, 128, 0.101);
+    background-color: #50324c2a;
   }
   
   .education hr {
@@ -56,12 +56,15 @@
   /* ========================== */
 @media (max-width: 600px) {
   .education {
+    height: 670px;
     margin: 0;
     padding: 0;
     margin-top: 30px;
+    margin-left: 10px;
   }
   .education h2 {
     padding-top: 20px;
+    
   }
   .education hr {
     width: 280px;

@@ -1,12 +1,11 @@
 import React from 'react';
-import { useTheme } from '../../Content/ThemeContent';
-import Typewriter from 'typewriter-effect';
-import './Home.css';
-import Resume from '../../assets/docs/HITESH KUMAR MISRA CV (11 Feb 2024)_20240211_125506_0000.pdf';
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import { BsSunFill } from "react-icons/bs";
+import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 import Fade from 'react-reveal/Fade';
-import  Wobble  from 'react-reveal/Wobble';
+import Wobble from 'react-reveal/Wobble';
+import Typewriter from 'typewriter-effect';
+import { useTheme } from '../../Content/ThemeContent';
+import Resume from '../../assets/docs/Hitesh Kumar Misra CV1.pdf';
+import './Home.css';
 
 const Home = () => {
   const [theme,setTheme]=useTheme()
@@ -47,7 +46,7 @@ const Home = () => {
           
           
           <Wobble >
-          <a className="btn btn-cv b2" href={Resume} download="HITESH KUMAR MISRA CV.pdf">My Resume</a>
+          <a className="btn btn-cv b2" href={Resume} download="HITESH KUMAR MISRA CV1.pdf">My Resume</a>
           </Wobble>
           
          

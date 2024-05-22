@@ -21,37 +21,37 @@
     
 }
 .home-buttons .btn-hire{
-    background-color: hwb(241 0% 0%);
-    color: hwb(0 100% 0%);
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
     width: 150px;
 }
 .home-buttons .btn-hire:hover{
     background-color: hsl(313, 100%, 50%);
-    color: hwb(0 100% 0%);
+    color: rgb(255, 255, 255);
     width: 180px;
     transition: 0.7s;
 }
 .home-buttons .btn-cv{
-    background-color: hwb(241 0% 0%);
-    color: hwb(0 100% 0%);
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
     width: 150px;
     margin-left: 15px;
 }
 .home-buttons .btn-cv:hover{
     background-color: hsl(313, 100%, 50%);
-    color: hwb(0 100% 0%);
+    color: rgb(255, 255, 255);
     opacity: 80%;
     transition: 0.7s;
 }
 .home-buttons .btn-git{
-    background-color: hwb(241 0% 0%);
-    color: hwb(0 100% 0%);
+    background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
     width: 150px;
     margin-left: 15px;
 }
 .home-buttons .btn-git:hover{
     background-color: hsl(313, 100%, 50%);
-    color: hwb(0 100% 0%);
+    color: rgb(255, 255, 255);
     opacity: 80%;
     width: 165px;
     transition: 0.7s;
@@ -116,8 +116,8 @@ font-size: 24px;
 .home-buttons .btn{
     flex-basis: 30%; /* adjust the width of each box */
   margin: 10px;
-  background-color: hwb(241 0% 0%);
-    color: hwb(0 100% 0%);
+  background-color: rgb(4, 0, 255);
+    color: rgb(255, 255, 255);
   padding: 10px;
   
 }

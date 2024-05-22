@@ -9,9 +9,17 @@ h4:hover{
 
 
 
+
 #dark  h4{
     color: #d7d9df;
 }
 #dark  h4:hover{
     color: hsl(64, 100%, 50%);
+}
+
+
+@media (max-width: 600px){
+    #dark body{
+        width: 605px;
+    }
 }
