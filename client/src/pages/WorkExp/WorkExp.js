@@ -40,6 +40,28 @@ const WorkExp = () => {
                 Management, Team Leading
               </p>
             </VerticalTimelineElement>
+            
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "Yellow", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="2022 - 2023"
+              iconStyle={{ background: "hsl(101, 100%, 35%)", color: "#fff" }}
+              icon={<SiReact />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Android App  Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Using Kotlin,XML,Android studio
+              </h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading
+              </p>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "Yellow", color: "#1e1e2c" }}
@@ -55,27 +77,6 @@ const WorkExp = () => {
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Using HTML,CSS,JavaScript
-              </h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "Yellow", color: "#1e1e2c" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  white",
-              }}
-              date="2022 - 2023"
-              iconStyle={{ background: "hsl(101, 100%, 35%)", color: "#fff" }}
-              icon={<SiReact />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Android APp  Developer
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                Using Kotlin,XML,Android studio
               </h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project

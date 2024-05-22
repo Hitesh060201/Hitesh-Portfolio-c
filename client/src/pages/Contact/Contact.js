@@ -54,10 +54,13 @@ const Contact = () => {
                         <div className="card2 d-flex  border-0 px-4 py-5 ">
                             <Roll>
                             <h4>Contact With 
-                            <BsLinkedin color="darkblue" size={30} className="ms-2"/>
-                            <BsGithub color="black" size={30} className="ms-2"/>
-                            <BsFacebook color="blue" size={30} className="ms-2"/>
-                            <BsInstagram color="#f70776" size={30} className="ms-2"/>
+                            <a href="https://www.linkedin.com/in/hitesh-kumar-misra-ba528a194/">
+                              <BsLinkedin color="darkblue" size={30} className="ms-2"/></a>
+                            <a href="https://github.com/Hitesh060201"> 
+                            <BsGithub color="black" size={30} className="ms-2"/></a>
+                            <a href="https://www.facebook.com/hitesh.mishra.925/">
+                              <BsFacebook color="blue" size={30} className="ms-2"/></a>
+                            <a href="https://www.instagram.com/hitesh_mishra206/?hl=en"><BsInstagram color="#f70776" size={30} className="ms-2"/></a>
 
                             </h4>
                             </Roll>
@@ -70,13 +73,13 @@ const Contact = () => {
                         </div>
                           <form ref={form} onSubmit={sendEmail}>
                         <Zoom>
-                        <div className="row px-3" ref={form} onSubmit={sendEmail}>
+                        <div className="row px-3 in" ref={form} onSubmit={sendEmail}>
                             <input type="text" name="from_name" placeholder="Enter Your Name" className="mb-3" />
                         </div>
-                        <div className="row px-3">
+                        <div className="row px-3 in">
                             <input type="email" name="from_email" placeholder="Enter Your Email Address" className="mb-3" />
                         </div>
-                        <div className="row px-3">
+                        <div className="row px-3 in">
                             <textarea type="text" name="message" placeholder="Write Your Message" className="mb-3" />
                             
                         </div>

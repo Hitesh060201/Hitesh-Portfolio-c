@@ -1,7 +1,9 @@
 import React from "react";
+import Bounce from "react-reveal/Bounce";
+import Rubberband from "react-reveal/RubberBand";
 import "./Projects.css";
-import  Rubberband from "react-reveal/RubberBand";
-import  Bounce from "react-reveal/Bounce";
+// import { Link } from "react-router-dom";
+
 const Projects = () => {
   return (
     <>
@@ -13,7 +15,7 @@ const Projects = () => {
 
         <hr />
         <p className="pb-3 text-center">
-        <h4>👉 Here are My top3 recent projects with live links and source code</h4>
+        <h4>👉 Here are My top6 recent projects with live links and source code</h4>
         </p>
         </Rubberband>
         {/* card design */}
@@ -40,12 +42,18 @@ const Projects = () => {
                       Portfolio Website
                     </h5>
                   </div>
+                  {/* <Link className="ad-btn" to="https://github.com/Hitesh060201/Hitesh-Portfolio-c">
+                    View
+                  </Link> */}
                   <a
                     className="ad-btn"
-                    href=""
-                  >
+                    href="https://my-portfolio-using-mern.onrender.com/" >
                     View
-                  </a>
+                    </a>
+                    
+                     {/* // href="https://github.com/Hitesh060201/Hitesh-Portfolio-c"
+                  // > */}
+                  
                 </div>
               </div>
             </div>
@@ -70,7 +78,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/Hitesh060201/FoodRunner"
                   >
                     View
                   </a>
@@ -96,7 +104,7 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">Connect Four Game</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a className="ad-btn" href="https://hitesh060201.github.io/connect-four-game/">
                     View
                   </a>
                 </div>
@@ -126,7 +134,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://hitesh060201.github.io/E-commerce-Ui/"
                   >
                     View
                   </a>
@@ -194,7 +202,7 @@ const Projects = () => {
                   </div>
                   <a
                     className="ad-btn"
-                    href="https://github.com/techinfo-youtube/ecommerce-app-2023"
+                    href="https://github.com/Hitesh060201/TRAVEL-AND-TOUR-WEBSITE-USING-REACT"
                   >
                     View
                   </a>
