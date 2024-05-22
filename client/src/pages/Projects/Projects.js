@@ -2,6 +2,7 @@ import React from "react";
 import Bounce from "react-reveal/Bounce";
 import Rubberband from "react-reveal/RubberBand";
 import "./Projects.css";
+// import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -41,15 +42,18 @@ const Projects = () => {
                       Portfolio Website
                     </h5>
                   </div>
-                  
+                  {/* <Link className="ad-btn" to="https://github.com/Hitesh060201/Hitesh-Portfolio-c">
+                    View
+                  </Link> */}
                   <a
                     className="ad-btn"
-                    href="https://my-portfolio-using-mern.onrender.com/"
-                    
-                    // href="https://github.com/Hitesh060201/Hitesh-Portfolio-c"
-                  >
+                    href="https://my-portfolio-using-mern.onrender.com/" >
                     View
-                  </a>
+                    </a>
+                    
+                     {/* // href="https://github.com/Hitesh060201/Hitesh-Portfolio-c"
+                  // > */}
+                  
                 </div>
               </div>
             </div>
